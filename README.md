@@ -1,3 +1,5 @@
 # project-three
-GIT project for bootcamp
-HTML/CSS intro project
+<ul>
+  <li>GIT project for bootcamp</li>
+  <li>HTML/CSS intro project</li>
+</ul>
