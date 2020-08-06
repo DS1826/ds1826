@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+}
+
+body {
+    background-color: lightgray;
+}
+
+main {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container {
+    width: 1024px;
+}
