@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
-  <title>Activity 1: Basic HTML Bio</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  
+    <title>Activity 1: Basic HTML Bio</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
 
 <body>
@@ -12,27 +13,41 @@
         <h1>My Website</h1>
     </header>
 
-    <main class="container">
-        <!--About Me Section-->
-        <section class="container">
-            <h2>Dina Saunders</h2>
-
+    <main>
+        <!--Profile Picture-->
+        <section id="profile">
             <img src="img/profile-photo.jpg" alt="Profile Picture">
-            <br>
-            <!--Things I love....-->
-            <h2>I love ....</h2>
+            <h2 id="name">Dina Saunders</h2>
+            <nav>
+                <h2>I love...</h2>
+                <h2>Portfolio</h2>
+                <h2>Contact</h2>
+            </nav>
+        </section>
+
+        <!--Things I love....-->
+
+        <section id="left">
+            <h3>I love ....</h3>
             <ul>
                 <li>Reading</li>
                 <li>Movies</li>
                 <li>Music</li>
                 <li>Yoga</li>
             </ul>
+        </section>
+
+        <!-- Work Portfolio -->
+
+        <section id="middle">
+            <h3>Portfolio</h3>
 
         </section>
-        <br>
+
         <!--Contact Information-->
-        <section>
-            <h2>Contact Information</h2>
+
+        <section id="right">
+            <h3>Contact Information</h3>
 
             <ul>
                 <li><strong>Email:</strong><a href="mailto:dina_saunders@mac.com">dina_saunders@mac.com</a></li>
